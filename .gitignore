@@ -1,0 +1,6 @@
+.vscode
+downloads
+json
+*.json
+__pycache__/
+*.pyc
