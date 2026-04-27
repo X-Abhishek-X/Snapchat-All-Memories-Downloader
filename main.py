@@ -135,7 +135,7 @@ def add_exif_data(image_path: Path, memory: Memory):
 
         with open(image_path, "wb") as f:
             f.write(img.get_file())
-    except:
+    except Exception:
         pass
 
 
